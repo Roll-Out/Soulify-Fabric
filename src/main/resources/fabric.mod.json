@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "soulify",
+  "version": "${version}",
+  "name": "Soulify",
+  "description": "Adds some soul related things that minecraft missed!",
+  "authors": [
+    "Roll-Out"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/soulify/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.rollout.soulify.Soulify"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "soulify.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.1",
+    "fabric": "*"
+  }
+}

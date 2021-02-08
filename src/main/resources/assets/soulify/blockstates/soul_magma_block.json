@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "soulify:block/soul_magma_block"
+    }
+  }
+}
